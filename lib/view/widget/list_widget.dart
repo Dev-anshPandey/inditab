@@ -13,7 +13,7 @@ class ListWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     
   final listViewModel=Provider.of<ListViewModel>(context, listen: false);
-  print(DateFormat.LLLL().format(listViewModel.fetchedList[index].date??DateTime.now()));
+  // print(DateFormat.LLLL().format(listViewModel.fetchedList[index].date??DateTime.now()));
     if(listViewModel.filter.isEmpty){
       return Column(
         children: [

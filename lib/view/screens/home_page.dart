@@ -23,7 +23,8 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     // TODO: implement initState
       ListViewModel lvm=ListViewModel();
-              lvm.fetchList(context);
+       lvm.fetchList(context);
+            
     super.initState();
   }
   @override

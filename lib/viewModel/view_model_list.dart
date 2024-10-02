@@ -10,7 +10,7 @@ class ListViewModel extends ChangeNotifier{
    int filterMonths=0;
    List<dynamic> filter=[];
 
-   void fetchList(BuildContext context){
+    fetchList(BuildContext context){
     apigetList(context);
    }
 
